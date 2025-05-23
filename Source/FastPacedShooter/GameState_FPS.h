@@ -158,7 +158,7 @@ public:
 	TSet<ACharacter_FPS*> RewindAllCharactersExcept(float RewindTime, ACharacter_FPS* SkipRewindCharacter);
 	void RestoreAllCharacters();
 
-	float GetRewindTime(class APlayerController_FPS* Player, float TargetRewindTime) const;
+	float GetRewindTime(class APlayerController* Player, float TargetRewindTime) const;
 
 	void UpdateSimulatedProxies(float DeltaTime);
 

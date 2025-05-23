@@ -260,7 +260,7 @@ void AGameState_FPS::RestoreAllCharacters()
 /*static IConsoleVariable* UseRecvMultiCVar = IConsoleManager::Get().FindConsoleVariable(TEXT("net.UseRecvMulti"));
 	static IConsoleVariable* UseRecvTimestampsCVar = IConsoleManager::Get().FindConsoleVariable(TEXT("net.UseRecvTimestamps"));*/
 
-float AGameState_FPS::GetRewindTime(APlayerController_FPS* Player, float TargetRewindTime) const
+float AGameState_FPS::GetRewindTime(APlayerController* Player, float TargetRewindTime) const
 {
 	UNetConnection* NetConnection = Player->GetNetConnection();
 
@@ -292,7 +292,7 @@ float AGameState_FPS::GetRewindTime(APlayerController_FPS* Player, float TargetR
 	
 	float AuthRewindTime = ServerTick + PacketDelta * SnapshotsPerSecond - (RTT + InterpolationDelay) * SnapshotsPerSecond;
 
-	Player->AuthRewindTime = AuthRewindTime;
+	Cast<APlayerController_FPS>(Player)->AuthRewindTime = AuthRewindTime;
 	
 	return FMath::Clamp(TargetRewindTime, AuthRewindTime - RewindDelta, AuthRewindTime + RewindDelta);
 }
