@@ -20,7 +20,9 @@ Unzip, then run the `FastPacedShooterClient.exe` executable using the following 
 ```
 ./FastPacedShooterClient.exe -ServerAddress="<SERVER_IP_ADDRESS>" -Nickname=<YOUR_NICKNAME>
 ```
-where `<SERVER_IP_ADDRESS>` is the IP address of the server and `<YOUR_NICKNAME>` is a custom player name (use a different nickname for each client).
+where:
+- `<SERVER_IP_ADDRESS>` is the IP address of the server, and
+- `<YOUR_NICKNAME>` is a custom player name (use a different nickname for each client).
 
 ## Controls
 * WASD - move
