@@ -28,7 +28,7 @@ where `<SERVER_IP_ADDRESS>` is the IP address of the server and `<YOUR_NICKNAME>
 - Left Mouse Button - shoot
 - Right Mouse Button - aim down sights
 - Mouse wheel up/down - switch weapon
-- Shift - sprint
+- Left Shift - sprint
 - R - reload
 - TAB - show/hide scoreboard
 - I - enable/disable hitbox debugging
