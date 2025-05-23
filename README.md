@@ -23,18 +23,21 @@ Unzip, then run the `FastPacedShooterClient.exe` executable using the following 
 where `<SERVER_IP_ADDRESS>` is the IP address of the server and `<YOUR_NICKNAME>` is an arbitrary player name.
 
 ## Controls
-- WASD - move
-- Space - jump
-- Left Mouse Button - shoot
-- Right Mouse Button - aim down sights
-- Mouse wheel up/down - switch weapon
-- Left Shift - sprint
-- R - reload
-- TAB - show/hide scoreboard
-- I - enable/disable hitbox debugging
-- K - enable/disable aimbot
-- H - show/hide statistics
-- ö - open console (run `FlushPersistentDebugLines` to clear displayed hitboxes)
+* WASD - move
+* Space - jump
+* Left Mouse Button - shoot
+* Right Mouse Button - aim down sights
+* Mouse wheel up/down - switch weapon
+* Left Shift - sprint
+* R - reload
+* TAB - show/hide scoreboard
+* I - enable/disable hitbox debugging
+* K - enable/disable aimbot
+* H - show/hide statistics
+* ö - open console:
+  * clear hitboxes: `FlushPersistentDebugLines`
+  * show/hide FPS: `stat FPS`
+  * limit FPS: `t.MaxFPS 60`
 
 ## Credits
 https://sketchfab.com/3d-models/ak47-831519a097d84e079fd8bc4b15e5b57d<br>
