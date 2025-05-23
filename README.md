@@ -37,7 +37,7 @@ where `<SERVER_IP_ADDRESS>` is the IP address of the server and `<YOUR_NICKNAME>
 * ö - open console:
   * clear hitboxes: `FlushPersistentDebugLines`
   * show/hide FPS: `stat FPS`
-  * limit FPS: `t.MaxFPS 60`
+  * limit FPS: `t.MaxFPS 60` or `t.MaxFPS 144` or choose any other frame rate
 
 ## Credits
 https://sketchfab.com/3d-models/ak47-831519a097d84e079fd8bc4b15e5b57d<br>
