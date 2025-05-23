@@ -2,7 +2,7 @@
 
 YouTube URL: https://www.youtube.com/watch?v=igeaqjTsYtA
 
-## Linux server build
+## Linux dedicated server build
 Download: https://github.com/tomcsanyigergely/DemoProject/releases/download/v1.0.0/LinuxServer.zip
 
 How to run:
